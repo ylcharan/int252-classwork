@@ -7,6 +7,7 @@ function UserProfile({
   greetUser,
   children,
 }) {
+  // return { name }, { age };
   return (
     <div>
       <p>Name: {name}</p>
