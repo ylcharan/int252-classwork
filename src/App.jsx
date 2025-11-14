@@ -1,5 +1,6 @@
 import "./App.css";
 import Car from "./Car";
+import ButtonClick from "./ButtonClick";
 import Pract from "./Map";
 import Details from "./practicat";
 import Info from "./practicat";
@@ -10,7 +11,7 @@ import UserProfile from "./UserProfile";
 function App() {
   // const greetUser = () => alert("Hello from Parent Component.");
   return (
-    <>
+    <div>
       {/* <Car model="XUV" brand="Mahindra" />
       <Car model="X1" brand="BMW" /> */}
       {/* <UserCard email={"test@test.com"} username={"test"} country={"india"} /> */}
@@ -28,7 +29,8 @@ function App() {
       {/* <Pract /> */}
       {/* <UserProfile /> */}
       <Student name={"Charan"} marks={"100"} />
-    </>
+      <ButtonClick />
+    </div>
   );
 }
 
